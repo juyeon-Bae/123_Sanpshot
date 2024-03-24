@@ -1,0 +1,51 @@
+:root{
+    --background-color: #FFFFFF;
+    --text-color: #2D5526;
+   
+}
+@font-face {
+    font-family: 'omyu_pretty';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/images/bg1.png);
+    /* 
+    background-size: cover; /* 배경 이미지를 화면에 꽉 차게 설정 */
+   /* background-position: center; /* 이미지를 가운데로 정렬 */
+    overflow: hidden; /* 스크롤 막기 */
+
+   
+}
+
+.container{
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+
+     
+}
+
+.button{
+    width: 1061px;
+    height: 173px;
+    background-color: var(--background-color);
+    border-radius: 16px;
+}
+
+.explain{
+    padding: 60px;
+    color: var(--text-color);
+    font-size: 48px;
+    text-align: center;
+    font-family: 'omyu_pretty';;
+}
